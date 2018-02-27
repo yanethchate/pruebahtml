@@ -1,0 +1,172 @@
+
+
+body{
+	font-size:14px;
+	color:#666;
+	background:#111 no-repeat;
+	
+	/* CSS3 Radial Gradients */
+	background-image:-moz-radial-gradient(center -100px 45deg, circle farthest-corner, #444 150px, #111 300px);
+	background-image:-webkit-gradient(radial, 50% 0, 150, 50% 0, 300, from(#444), to(#111));
+	
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#navigationMenu li{
+	list-style:none;
+	height:39px;
+	padding:2px;
+	width:40px;
+	text-align: right;
+}
+
+#navigationMenu span{
+	/* Container properties */
+	width:15px;
+	left:38px;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+    text-align: right
+	/* Text properties */
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:39px;
+	
+	/* CSS3 Transition: */
+	-webkit-transition: 0.25s;
+	
+	/* Future proofing (these do not work yet): */
+	-moz-transition: 0.25s;
+	transition: 0.25s;
+}
+
+#navigationMenu a{
+	text-align: right;
+	background:url('img/navigation.jpg') no-repeat;
+
+	height:39px;
+	width:38px;
+	display:block;
+	position:relative;
+}
+
+/* General hover styles */
+
+#navigationMenu a:hover span{ text-align: right; width:auto; padding:0 20px;overflow:visible; }
+#navigationMenu a:hover{
+	text-decoration:none;
+	text-align: right;
+	
+	
+	/* CSS outer glow with the box-shadow property */
+	-moz-box-shadow:0 0 5px #9ddff5;
+	-webkit-box-shadow:0 0 5px #9ddff5;
+	box-shadow:0 0 5px #9ddff5;
+}
+
+
+
+/* Blue Button */
+
+#navigationMenu .inicio { background-position:-38px 0;}
+#navigationMenu .inicio:hover { background-position:-38px -39px;}
+#navigationMenu .inicio span{
+	background-color:#1e8bb4;
+	color:#223a44;
+	text-shadow:1px 1px 0 #44a8d0;
+}
+/* Yellow Button */
+
+#navigationMenu .tecnologia { background-position:-114px 0;}
+#navigationMenu .tecnologia:hover{ background-position:-114px -39px;}
+#navigationMenu .tecnologia span{
+	background-color:#d0a525;
+	color:#604e18;
+	text-shadow:1px 1px 0 #d8b54b;
+}
+
+/* Orange Button */
+
+#navigationMenu .servicios { background-position:-76px 0;}
+#navigationMenu .servicios:hover { background-position:-76px -39px;}
+#navigationMenu .servicios span{
+	background-color:#c86c1f;
+	color:#5a3517;
+	text-shadow:1px 1px 0 #d28344;
+}
+
+/* Yellow Button */
+
+#navigationMenu .blog { background-position:-114px 0;}
+#navigationMenu .blog:hover{ background-position:-114px -39px;}
+#navigationMenu .blog span{
+	background-color:#d0a525;
+	color:#604e18;
+	text-shadow:1px 1px 0 #d8b54b;
+}
+
+/* Purple Button */
+
+#navigationMenu .contactos { background-position:-152px 0;}
+#navigationMenu .contactos:hover { background-position:-152px -39px;}
+#navigationMenu .contactos span{
+	background-color:#af1e83;
+	color:#460f35;
+	text-shadow:1px 1px 0 #d244a6;
+}
+
+/* The styles below are only needed for the demo page */
+
+#main{
+	text-align: right
+	margin:20px auto;
+	position:relative;
+	width:40px;
+}
+
+
+h1{
+	color:#fff;
+	font-size:30px;
+	font-weight:normal;
+	padding:60px 0 20px;
+	text-align:center;
+}
+
+h2{
+	font-weight:normal;
+	text-align:center;
+}
+
+h1,h2{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+}
+
+a, a:visited,a:active {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}
+
+p.note{
+	color:#707070;
+	font-size:30px;
+	text-align:right-side;
+	margin:50px;
+}
+.button.blue {
+	background:#3498db;
+	box-shadow:0px 3px 0px #266792;
+}
